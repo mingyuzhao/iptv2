@@ -1,7 +1,7 @@
 <?php
 class DATABASE{
     // specify your own DATABASE credentials
-    private $host = "localhost";
+    private $host = "47.244.13.63";
     private $db_name = "iptv";
     private $username = "admin";
     private $password = "1qaz2wsx";
