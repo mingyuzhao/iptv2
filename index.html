@@ -1,0 +1,84 @@
+<!--
+    jQuery Mobile IPTV
+    Author: Ming Yu Zhao (mingyu.zhao@gmail.com)
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="IpTV, jQuery Mobile site">
+        <meta name="author" content="Ming Yu Zhao">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title data-i18n="title"></title>
+        <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css"> -->
+        <link rel="stylesheet" href="css/jquery.mobile-1.5.0-alpha.1.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="images/f_01.png">
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+        <script src="js/jquery.min.js"></script>
+        <!-- <script src="http://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script> -->
+        <script src="js/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+        <script src="js/hls.min.js"></script>
+    </head>
+
+    <body>
+        <div data-role="page" id="home" class="ui-page-theme-b">
+            <div data-role="header" class="header ui-grid-b" id="homeheader">
+                <!-- <div class="ui-block-a">
+                <a href="#icons" data-transition="flip" data-role='button' data-inline="true" data-icon="ui-icon-plus" data-show-label="false" class="ui-btn-left">Sign Up</a>
+                </div>
+                <div class="ui-block-b">
+                <h1 data-i18n="title"></h1>
+                </div>
+                <div class="ui-block-c">
+                <a href="#theme" data-transition="flip" data-role='button' data-inline="true" data-icon="ui-icon-user" data-show-label="false">Login</a>
+                </div> -->
+                <h1 data-i18n="title"></h1>
+
+    <!-- <a href="#" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-delete">Cancel</a>
+    <button class="ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-check">Save</button> -->
+            </div>
+            <div data-role="content" class="ui-body-a">
+              <video id="video" width="2000" controls autoplay="autoplay" muted poster="images/Changchun.jpg"></video>
+              <div id="navgroup">
+                <div data-role="controlgroup" data-type="horizontal">
+                  <a data-role="button" data-mini="true" data-inline="true" data-icon="ui-icon-arrow-l" data-iconpos="left" data-i18n="btnprev" id="prevchannel"></a>
+                  <a data-role="button" data-mini="true" data-inline="true" data-icon="ui-icon-edit" data-iconpos="left" data-i18n="btnedit" href="#editchannels" data-transition="flip"></a>
+                  <a data-role="button" data-mini="true" data-inline="true" data-icon="ui-icon-arrow-r" data-iconpos="right" data-i18n="btnnext" id="nextchannel"></a>
+                </div>
+              </div>
+            </div>
+            <div data-role="footer" class="footer">
+                <p class="copyright">&copy; Copyright 2019 Ming Yu Zhao</p>
+            </div>
+        </div>
+        <div data-role="page" id="editchannels">
+          <div data-role="header" class="header ui-grid-b">
+            <h1 data-i18n="title"></h1>
+          </div>
+          <div data-role="content" id="editchannelscontent"></div>
+          <div data-role="footer" class="footer">
+              <p class="copyright">&copy; Copyright 2019 Ming Yu Zhao</p>
+          </div>
+        </div>
+        <script src="js/private/script.js"></script>
+        <!-- Start Open Web Analytics Tracker -->
+        <script type="text/javascript">
+            //<![CDATA[
+            var owa_baseUrl = 'http://myowa.epizy.com/';
+            var owa_cmds = owa_cmds || [];
+            owa_cmds.push(['setSiteId', '17e55e66c821fef65a55fd4876bcbd7f']);
+            owa_cmds.push(['trackPageView']);
+            owa_cmds.push(['trackClicks']);
+
+            (function() {
+            	var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
+            	owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl );
+            	_owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+            	var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
+            }());
+            //]]>
+        </script>
+        <!-- End Open Web Analytics Code -->
+    </body>
+</html>

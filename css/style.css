@@ -1,0 +1,78 @@
+.header {
+	text-align:center;
+}
+
+.footer {
+	text-align:center;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.ui-icon-arrow-l, .ui-icon-arrow-r, .ui-icon-edit {
+	background-color: #4da6ff;
+}
+
+.center-controlgroup { text-align: center; }
+
+#navgroup {text-align:center;}
+#navgroup div {display:inline-block;}
+
+.behind {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.behind a.ui-btn {
+    width: 64px;
+    height: 78px;
+    margin: 0px;
+    float: right;
+    border: none;
+}
+
+.behind a.delete-btn, .behind a.delete-btn:active,
+.behind a.delete-btn:visited, .behind a.delete-btn:focus,
+.behind a.delete-btn:hover {
+    color: white;
+    background-color: red;
+    text-shadow: none;
+}
+
+.behind a.ui-btn.pull-left {
+    float: left;
+}
+
+.behind a.edit-btn, .behind a.edit-btn:active,
+.behind a.edit-btn:visited, .behind a.edit-btn:focus,
+.behind a.edit-btn:hover {
+    color: white;
+    background-color: orange;
+    text-shadow: none;
+}
+
+.open {
+    touch-action: none;
+}
+
+#wrapper {
+  display: flex;
+}
+
+#left {
+  flex: 0 0 35%;
+}
+
+#right {
+  flex: 1;
+}
+
+#description {
+  font-size: 10px;
+  white-space:normal;
+}

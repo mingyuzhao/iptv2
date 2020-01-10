@@ -1,0 +1,23 @@
+{
+   "title": "Afu TV Channels v1.0.3",
+   "btnhome": "Home",
+   "btnsingup": "Sing Up",
+   "btnlogin": "Log In",
+   "btnedit": "Edit",
+   "btnprev": "Previous",
+   "btnnext": "Next",
+   "btnsettings": "Settings",
+   "btnlogout": "Log out",
+	 "contact": {
+  		"name": "Name:",
+  		"email": "Email:",
+  		"send": "Send Message",
+  		"msg": "Message"
+	 },
+	 "login": {
+  		"header": "Logging in FreeChannels v1.0",
+  		"email": "Email address: ",
+  		"password": "Password: ",
+  		"login": "Login"
+	 }
+}

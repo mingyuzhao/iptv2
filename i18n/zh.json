@@ -1,0 +1,23 @@
+{
+   "title": "阿福影音 v1.0.3",
+   "btnhome": "主页",
+   "btnsingup": "注册",
+   "btnlogin": "登录",
+   "btnedit": "选台",
+   "btnprev": "上一频道",
+   "btnnext": "下一频道",
+   "btnsettings": "偏好设置",
+   "btnlogout": "退出",
+	 "contact": {
+  		"name": "姓名：",
+  		"email": "电子邮箱：",
+  		"send": "发送信息",
+  		"msg": "信息内容："
+	 },
+	 "login": {
+  		"header": "登录福瑞影音 v1.0",
+  		"email": "电子邮箱：",
+  		"password": "密码：",
+  		"login": "登录"
+	 }
+}
