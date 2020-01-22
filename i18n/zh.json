@@ -1,5 +1,5 @@
 {
-   "title": "阿福影音 v1.0.3",
+   "title": "阿福影音 v1.0.4",
    "btnhome": "主页",
    "btnsingup": "注册",
    "btnlogin": "登录",
@@ -15,7 +15,7 @@
   		"msg": "信息内容："
 	 },
 	 "login": {
-  		"header": "登录福瑞影音 v1.0",
+  		"header": "登录福瑞影音 v1.0.4",
   		"email": "电子邮箱：",
   		"password": "密码：",
   		"login": "登录"
