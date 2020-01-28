@@ -11,7 +11,7 @@ video {
   height: auto;
 }
 
-.ui-icon-arrow-l, .ui-icon-arrow-r, .ui-icon-edit {
+.ui-icon-arrow-l, .ui-icon-arrow-r, .ui-icon-edit, .ui-icon-plus, .ui-icon-user, .ui-icon-info {
 	background-color: #4da6ff;
 }
 

@@ -1,13 +1,17 @@
 {
-   "title": "Afu TV Channels v1.0.4",
+   "title": "Afu TV Channels v1.0.5",
    "btnhome": "Home",
-   "btnsingup": "Sing Up",
+   "btnsignup": "Sing Up",
    "btnlogin": "Log In",
+   "btnhelp": "Help",
    "btnedit": "Edit",
    "btnprev": "Previous",
    "btnnext": "Next",
    "btnsettings": "Settings",
    "btnlogout": "Log out",
+   "ads": "Advertisement",
+   "ads_phone": "Telephone: 17167801777",
+   "ads_email": "Email: aeontech.inc@outlook.com",
 	 "contact": {
   		"name": "Name:",
   		"email": "Email:",
@@ -15,7 +19,7 @@
   		"msg": "Message"
 	 },
 	 "login": {
-  		"header": "Logging in FreeChannels v1.0.4",
+  		"header": "Logging in FreeChannels v1.0.5",
   		"email": "Email address: ",
   		"password": "Password: ",
   		"login": "Login"

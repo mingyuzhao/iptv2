@@ -9,7 +9,7 @@
         <meta name="keywords" content="IpTV, jQuery Mobile site">
         <meta name="author" content="Ming Yu Zhao">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Free TV Channels v1.0.4</title>
+        <title>Free TV Channels v1.0.5</title>
         <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css"> -->
         <link rel="stylesheet" href="css/jquery.mobile-1.5.0-alpha.1.min.css">
         <link rel="stylesheet" href="css/style.css">
@@ -24,28 +24,26 @@
     <body>
         <div data-role="page" id="home" class="ui-page-theme-b">
             <div data-role="header" class="header ui-grid-b" id="homeheader">
-                <!-- <div class="ui-block-a">
-                <a href="#icons" data-transition="flip" data-role='button' data-inline="true" data-icon="ui-icon-plus" data-show-label="false" class="ui-btn-left">Sign Up</a>
-                </div>
-                <div class="ui-block-b">
-                <h1 data-i18n="title"></h1>
-                </div>
-                <div class="ui-block-c">
-                <a href="#theme" data-transition="flip" data-role='button' data-inline="true" data-icon="ui-icon-user" data-show-label="false">Login</a>
-                </div> -->
-                <h1 data-i18n="title"></h1>
-
-    <!-- <a href="#" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-delete">Cancel</a>
-    <button class="ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-check">Save</button> -->
+              <h1 data-i18n="title"></h1>
             </div>
             <div data-role="content" class="ui-body-a">
               <video id="video" width="2000" controls autoplay="autoplay" muted poster="images/Changchun.jpg"></video>
               <div id="navgroup">
                 <div data-role="controlgroup" data-type="horizontal">
-                  <a data-role="button" data-mini="true" data-inline="true" data-icon="ui-icon-arrow-l" data-iconpos="left" data-i18n="btnprev" id="prevchannel"></a>
-                  <a data-role="button" data-mini="true" data-inline="true" data-icon="ui-icon-edit" data-iconpos="left" data-i18n="btnedit" href="#editchannels" data-transition="flip"></a>
+                  <a data-role="button" data-mini="true" data-inline="true" data-icon="ui-icon-arrow-l" data-iconpos="left"  data-i18n="btnprev" id="prevchannel"></a>
+                  <a data-role="button" data-mini="true" data-inline="true" data-icon="ui-icon-edit"    data-iconpos="left"  data-i18n="btnedit" href="#editchannels" data-transition="flip"></a>
                   <a data-role="button" data-mini="true" data-inline="true" data-icon="ui-icon-arrow-r" data-iconpos="right" data-i18n="btnnext" id="nextchannel"></a>
                 </div>
+                <div data-role="controlgroup" data-type="horizontal">
+                  <a data-role="button" data-mini="true" data-inline="true" data-icon="ui-icon-info" data-i18n="btnhelp"   class="ui-btn-left" data-transition="flip" href="#help"></a>
+                </div>
+
+    <!--
+                  <a data-role="button" data-mini="true" data-inline="true" data-icon="ui-icon-plus" data-i18n="btnsignup" class="ui-btn-left" data-transition="flip" href="#register"></a>
+                  <a data-role="button" data-mini="true" data-inline="true" data-icon="ui-icon-user" data-i18n="btnlogin"  class="ui-btn-left" data-transition="flip" href="#login"></a>
+    <a href="#" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-delete">Cancel</a>
+    <button class="ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-check">Save</button>
+    -->
               </div>
             </div>
             <div data-role="footer" class="footer">
@@ -57,6 +55,39 @@
             <h1 data-i18n="title"></h1>
           </div>
           <div data-role="content" id="editchannelscontent"></div>
+          <div data-role="footer" class="footer">
+              <p class="copyright">&copy; 2019-2020 All rights reserved.<br> AeonTech Inc.</p>
+          </div>
+        </div>
+        <div data-role="page" id="register">
+          <div data-role="header" class="header ui-grid-b">
+            <h1 data-i18n="title"></h1>
+          </div>
+          <div data-role="content">Register</div>
+          <div data-role="footer" class="footer">
+              <p class="copyright">&copy; 2019-2020 All rights reserved.<br> AeonTech Inc.</p>
+          </div>
+        </div>
+        <div data-role="page" id="login">
+          <div data-role="header" class="header ui-grid-b">
+            <h1 data-i18n="title"></h1>
+          </div>
+          <div data-role="content">login</div>
+          <div data-role="footer" class="footer">
+              <p class="copyright">&copy; 2019-2020 All rights reserved.<br> AeonTech Inc.</p>
+          </div>
+        </div>
+        <div data-role="page" id="help">
+          <div data-role="header" class="header ui-grid-b">
+            <h1 data-i18n="title"></h1>
+          </div>
+          <div data-role="content">
+            <h1 data-i18n="ads"></h1>
+            <ul data-role="listview">
+              <li data-i18n="ads_phone"></li>
+              <li data-i18n="ads_email"></li>
+            </ul>
+          </div>
           <div data-role="footer" class="footer">
               <p class="copyright">&copy; 2019-2020 All rights reserved.<br> AeonTech Inc.</p>
           </div>
