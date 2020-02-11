@@ -1,5 +1,5 @@
 {
-   "title": "Afu TV Channels v1.0.5",
+   "title": "Afu TV Channels v1.0.6",
    "btnhome": "Home",
    "btnsignup": "Sing Up",
    "btnlogin": "Log In",
@@ -20,7 +20,7 @@
   		"msg": "Message"
 	 },
 	 "login": {
-  		"header": "Logging in FreeChannels v1.0.5",
+  		"header": "Logging in FreeChannels v1.0.6",
   		"email": "Email address: ",
   		"password": "Password: ",
   		"login": "Login"
